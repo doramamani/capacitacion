@@ -53,6 +53,8 @@ function ValidarElementos() {
         ? $('#val_input_nombre').addClass('hide')
         : toastr.info('Nombre - Dato obligatorio');
         
+        
+        
     apellido.length > 0 
         ? $('#val_input_apellido').addClass('hide')
         : toastr.info('Apellido - Dato obligatorio');
