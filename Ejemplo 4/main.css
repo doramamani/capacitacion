@@ -1,0 +1,15 @@
+h1 {color: red};
+span{
+    font-size:10px;
+    font-weight: bold;
+    color:red;
+}
+#und_div{
+    font-size:  48px;
+    font-weight: bold;
+
+}
+#btncomida {
+    width:  200px;
+    height: 80px;
+}
