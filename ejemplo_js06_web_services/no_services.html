@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <title>Ejemplo de CSS en archivo distinto</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <script src="libs/jquery-3.3.1.min.js"></script>
+        <script src="code/persona.js"></script>
+        <script src="code/main.js"></script>
+        
+        <!-- TOASTR -->
+        <link rel="stylesheet" type="text/css" href="libs/toastr.min.css">
+        <script src="libs/toastr.min.js"></script>
+        
+        <!-- Bootstrap -->
+        <link rel="stylesheet" type="text/css" href="libs/bootstrap/css/bootstrap.min.css">
+        <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+    </head>
+    
+    <body>
+        <div class="container">
+        
+            <h1>No hay servicios disponibles, intentelo mas tarde.</h1>
+           
+            <div class="row">
+                <button id="btnBack">Regresar</button>
+            </div>
+            
+        </div>
+    </body>
+    
+    <script>
+        $(document).ready(function() {
+            $('#btnBack').on('click', function() {
+               window.location.href = "main.html"; 
+            });
+        });
+    </script>
+</html>
